@@ -1,0 +1,29 @@
+Package: SuperFarmerAGOJZB
+Title: Pakiet implementuje gre Superfarmer wraz ze strategiami
+Version: 0.9.0.0000
+Authors@R: c(
+          person("Alicja", "Gosiewska", email = "alicjagosiewska@gmail.com", role = c("cre")),
+          person("Joanna", "Zbijewska", email = "asia.zbijewska@gmail.com", role = c("aut")),
+          person("Hanna", "Kranas", email = "unchallenged.yo@gmail.com", role = c("ctb")))
+Description: Oto pakiet do gry Super Farmer stwarzajacy mozliwosc gry dla jednego gracza.
+            Aby wywolac gre wystarczy tylko jedna funkcja korzystająca z funkcji pomocniczych.
+            Nie potrzebna jest wiec biegla znajomosc R!
+            Funkcja gry korzysta ze strategii gry dolaczonej jako jedna z funkci do pakietu,
+            jednak nic nie stoi na przeszkodzie aby zaimplementować wlasna funkcje,
+            ktora spelni role strategii. Zadanie to jest może trochę trudniejsze, niż wywołanie
+            gry dla zaimplementowanej juz strategi, ale może okazac sie przydatne. Funkcje
+            mozna latwo powtarzac i uzyskac statystyki dotyczace czasu gry dla zadanej strategii.
+Depends: R (>= 3.2.0)
+License: CC0
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 5.0.1
+Suggests: testthat, knitr, rmarkdown
+Imports: ggplot2, gridExtra, reshape2, compiler, cowplot, grid, lattice, utils
+VignetteBuilder: knitr
+NeedsCompilation: no
+Packaged: 2016-12-30 11:10:39 UTC; alicj
+Author: Alicja Gosiewska [cre],
+  Joanna Zbijewska [aut],
+  Hanna Kranas [ctb]
+Maintainer: Alicja Gosiewska <alicjagosiewska@gmail.com>
