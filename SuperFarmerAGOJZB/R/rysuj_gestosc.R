@@ -10,8 +10,6 @@
 #' Alicja Gosiewska, \email{alicjagosiewska@gmail.com}
 #'
 #' @rdname rysuj_gestosc
-#' 
-#' @export
 
 rysuj_gestosc <- function(dane){
   dane<-reshape2::melt(dane,id.vars=NULL)

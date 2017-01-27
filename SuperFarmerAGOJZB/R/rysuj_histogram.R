@@ -17,7 +17,6 @@
 #'
 #' @rdname rysuj_histogram
 #'
-#' @export
 rysuj_histogram <- function(dane, kolor, x_max, y_max){
 p <- ggplot2::ggplot(dane,ggplot2::aes(dane))+
   ggplot2::geom_histogram(binwidth = 1, col=paste("dark",kolor, sep =""), fill = kolor)+

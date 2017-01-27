@@ -10,8 +10,6 @@
 #' Alicja Gosiewska, \email{alicjagosiewska@gmail.com}
 #'
 #' @rdname rysuj_skrzypcowy
-#' 
-#' @export
 #'
 rysuj_skrzypcowy <- function(dane){
   dane<-reshape2::melt(dane,id.vars=NULL)

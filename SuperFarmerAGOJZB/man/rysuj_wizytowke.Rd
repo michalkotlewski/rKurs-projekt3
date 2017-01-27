@@ -4,14 +4,12 @@
 \alias{rysuj_wizytowke}
 \title{Rysowanie wizytówki dla strategii}
 \usage{
-rysuj_wizytowke(strategia, plik = "wizytowka.pdf", nazwa = NULL)
+rysuj_wizytowke(strategia, plik = "wizytowka.pdf")
 }
 \arguments{
 \item{strategia}{strategia do zwizualizowania}
 
 \item{plik}{nazwa pliku, no którego zostanie zapisana wizytówka}
-
-\item{nazwa}{opcjonalna nazwa strategii}
 }
 \description{
 Funkcja rysuje wizytówkę do pliku pdf przedstawiającą podstawowe statystyki dotyczące badanej strategii, w odniesieniu do strategii SuperFarmerDA
